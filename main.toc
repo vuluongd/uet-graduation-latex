@@ -1,1 +1,2 @@
-\contentsline {chapter}{\numberline {Chương\ 1.}{Giới thiệu}}{1}{}%
+\contentsline {chapter}{\numberline {Chương\ 1.}{Mở đầu}}{1}{}%
+\contentsline {section}{\numberline {1.1.}{Giới thiệu về drone trình diễn ánh sáng}}{1}{}%
