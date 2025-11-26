@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.22)  23 NOV 2025 13:48
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.22)  26 NOV 2025 06:20
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -960,9 +960,112 @@ Package mathfont Info: Adjusting font Times New Roman-3.)
 
 ]
 Package mathfont Info: Adjusting font Times New Roman.
-Package mathfont Info: Adjusting font Times New Roman Bold. [1
+Package mathfont Info: Adjusting font Times New Roman Bold.
+<hinh1-1.png, id=38, 730.22812pt x 410.2828pt>
+File: hinh1-1.png Graphic file (type png)
+<use hinh1-1.png>
+Package luatex.def Info: hinh1-1.png  used on input line 77.
+(luatex.def)             Requested size: 273.14923pt x 153.46753pt.
+Package mathfont Info: Adjusting font Times New Roman.
+<hinh1-2.png, id=39, 1828.8325pt x 868.24374pt>
+File: hinh1-2.png Graphic file (type png)
+<use hinh1-2.png>
+Package luatex.def Info: hinh1-2.png  used on input line 84.
+(luatex.def)             Requested size: 341.43307pt x 162.09314pt.
+ [1
 
 
+
+<./hinh1-1.png>]
+Package mathfont Info: Adjusting font Times New Roman Bold.
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\TU/TimesNewRoman(0)/m/n/13.00003 Light show Drone L3
+ []
+
+[2<./hinh1-2.png>]
+<hinh1-3.jpg, id=47, 309.155pt x 793.96625pt>
+File: hinh1-3.jpg Graphic file (type jpg)
+<use hinh1-3.jpg>
+Package luatex.def Info: hinh1-3.jpg  used on input line 113.
+(luatex.def)             Requested size: 136.57462pt x 350.76367pt.
+ [3]
+<hinh1-4.png, id=51, 633.36626pt x 506.89375pt>
+File: hinh1-4.png Graphic file (type png)
+<use hinh1-4.png>
+Package luatex.def Info: hinh1-4.png  used on input line 119.
+(luatex.def)             Requested size: 273.14923pt x 218.60977pt.
+ [4<./hinh1-3.jpg><./hinh1-4.png>] [5]
+Underfull \hbox (badness 1552) in paragraph at lines 130--131
+[]\TU/TimesNewRoman(0)/m/n/13.00003 Intel Corporation, ''Intel Drone Light Show Breaks Guinness World Records
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 130--131
+\TU/TimesNewRoman(0)/m/n/13.00003 Title at Olympic Winter Games PyeongChang 2018
+''. [Online]. Available:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\TU/TimesNewRoman(0)/m/n/13.00003 https://www.intc.com/news-events/press-release
+s/detail/172/intel-drone-light-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[]\TU/TimesNewRoman(0)/m/n/13.00003 Ehang, ''EHang Egret’s 1374 drones dancing
+ over the City Wall of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+\TU/TimesNewRoman(0)/m/n/13.00003 Xi’an, achieving a Guinness World Records ti
+tle''. [Online]. Available:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+[]\TU/TimesNewRoman(0)/m/n/13.00003 Masakazu Senda, ''Vietnam marks 50th Reunifi
+cation Day by lighting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+\TU/TimesNewRoman(0)/m/n/13.00003 sky with record dispay of 10,500 drones''. [On
+line]. Available:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+\TU/TimesNewRoman(0)/m/n/13.00003 https://www.guinnessworldrecords.com/news/comm
+ercial/2025/5/vietnam-marks-
+ []
+
+Package mathfont Info: Adjusting font Times New Roman Italic.
+Underfull \hbox (badness 5696) in paragraph at lines 138--139
+[]\TU/TimesNewRoman(0)/m/n/13.00003 CollMot Robotics Ltd., ”CollMot multi dron
+e show spec tech”. [Online].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+\TU/TimesNewRoman(0)/m/n/13.00003 Avaialable: https://collmot.com/user/pages/res
+ources/CollMot%20multi-
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 146--147
+[]\TU/TimesNewRoman(0)/m/n/13.00003 H.Sun, J.Qi, M.Wang ”Path Planning for Den
+se Drone Formation Based on
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 146--147
+\TU/TimesNewRoman(0)/m/n/13.00003 Modiefield Aritificial Potential Field”, \T
+U/TimesNewRoman(0)/m/it/13.00003 Proceedings of 39th Chinese Control
+ []
+
+[6
 
 ] (./main.aux)
  ***********
@@ -977,23 +1080,23 @@ LaTeX Font Warning: Size substitutions with differences
 )
 
 Here is how much of LuaTeX's memory you used:
- 21108 strings out of 476081
+ 21168 strings out of 476081
  125217,953878 words of node,token memory allocated
- 490 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 51 glue_spec,
+ 495 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 52 glue_spec,
  8 attribute_list, 2 write nodes
-   avail lists: 2:182,3:95,4:32,5:41,6:16,7:4018,8:1,9:82,10:19,11:2
- 43082 multiletter control sequences out of 65536+600000
- 98 fonts using 20103679 bytes
- 99i,5n,113p,2470b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 2:328,3:140,4:44,5:44,6:60,7:5074,8:1,9:522,10:20,11:50
+ 43134 multiletter control sequences out of 65536+600000
+ 101 fonts using 21100479 bytes
+ 99i,10n,113p,2470b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Italic.ttf></usr/share/
 fonts/truetype/msttcorefonts/Times_New_Roman_Bold_Italic.ttf></usr/share/fonts/t
 ruetype/msttcorefonts/Times_New_Roman.ttf></usr/share/fonts/truetype/msttcorefon
 ts/Times_New_Roman_Bold.ttf>
-Output written on main.pdf (10 pages, 117969 bytes).
+Output written on main.pdf (15 pages, 650311 bytes).
 
-PDF statistics: 67 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -55,11 +55,101 @@
         UAV: Unmanned Aerial Vehicle -- Máy bay không người lái.
         
         PyOpenCL : Python OpenCL -- Thư viện Python cho OpenCL.
+
+        GCS : Ground Control Station -- Trạm điều khiển mặt đất.
+
+        ADI: Animation Design Interface -- 
+
+        GNSS-RTK: Global Navigation Satellite System – Real-Time Kinematic -- Kỹ thuật định vị vệ tinh độ chính xác cao
+
+        GPS: Global Positioning Systems -- Hệ thống định vị toàn cầu
     \end{contentlistingsection}
 \end{contentlisting}
-\chapter{Mở đầu}
+\chapter{Tổng quan}
 \section{Giới thiệu về drone trình diễn ánh sáng}
 Trong những năm gần đây, trình diễn ánh sáng bằng drone (drone light show) đã trở thành một xu hướng mới trong lĩnh vực giải trí và sự kiện. Công nghệ này sử dụng hàng trăm hàng nghìn UAV được lập trình để bay theo các đội hình và tạo ra những hình ảnh, hiệu ứng ánh sáng ấn tượng trên bầu trời. Nhờ vào khả năng tái sử dụng, không gây khó bụi và có tính linh hoạt cao cũng như mức độ an toàn tốt hơn mà việc sử dụng drone trong các màn trình diễn ánh sáng ngày càng được sử dụng rộng rãi đặc biệt trong những sự kiến lớn thay thế dần cho pháo hoa truyền thống.
 
+Với sự phát triển nhanh chóng của UAV và công nghệ điểu khiển tự động đã ghi nhận nhiều màn trình diễn ánh sáng với số lượng drone lớn được thực hiện thành công bởi các công ty như Intel[1] hay Ehang[2] đặc biệt trong lễ  kỉ niệm 50 năm giải phóng miền Nam thống nhất đất nước công ty Damoda đã đạt ki lục Guiness với một màn trình diễn
+ánh sáng sử dụng 10500 drone [3], từ những thành công này có thể thấy được drone light show là một công nghệ mới nổi nhưng đầy điểm năng phát triển trong tương lai. Do đó đã có nhiều nghiên cứu về điều khiển bầy đàn , truyền thông giữa các drone, thuật toán quy hoạch đường đi, thiết kế phần cứng và phần mềm nhằm hướng tới các buổi trình diễn ánh sáng sáng tạo hơn, đẹp mắt hơn và tiết kiệm năng lượng hơn. Hình 1.1 được lấy từ buổi trình diễn ánh sáng do Damoda trình diễn trong lễ kỉ niệm 50 năm giải phóng miền Nam thống nhất đất nước.
+\begin{figure}[H]
+    {Màn trình diễn ánh sáng của Damoda trong lễ kỉ niệm 50 năm giải phóng miền Nam thống nhất đất nước với 10500 drone [3].}
+    \centering
+    \includegraphics[width=0.6\textwidth]{hinh1-1.png}
+\end{figure}
+Sơ lược về phần cứng của drone sử dụng trong trình diễn ánh sáng, thông thường các drone bốn cánh quạt (quadrotor) là lựa chọn phổ biến do có thể phát triển với giá thàn thấp và cấu tạo linh hoạt. Trong nghiên cứu của Huang và công sự thì quadrotor có cấu tạo từ 3 phần như hình 1.1 với trung tâm điều khiển có dạng elipse, một khung sợi cánh quạt và bốn cánh quạt. Trung tâm điều khiển bay chứa các bộ điều khiển tích hợp, mô đun truyền thông không dây hai kênh, một bộ định vị, pin lithinium có thể sạc lại được và mô đun led được gắn ở vị trí dưới của drone. Bốn cụm động cơ gồm cánh quạt của quadrotor bao gồm động cơ không chổi than và một cánh quạt có ba lá cánh,
+khung sợi carbon nhằm nối liền trung tầm điều khiển và bốn cụm động cơ cánh quạt [4]. Một số thông số kĩ thuật cở bản của drone đã được công bố bởi các hãng như Collmot [5] hay Damoda [6] được trình bày ở bảng 1.1, qua đó có thể thấy rằng các drone được sử dụng của Damoda có chất lượng hàng đầu hiện nay điều này giúp công ty này có thể thực hiện được các màn trình diễn với quy mô không tưởng. Về phần mềm cũng như quá trình điều khiển bay sẽ được trình bày chi tiết trong chương 1.2.
+\begin{figure}[H]
+    {Cấu tạo của một drone được sử dụng trong  trình diễn ánh sáng [4].}
+    \centering
+    \includegraphics[width=0.75\textwidth]{hinh1-2.png}  % <-- file PNG 
+\end{figure}
+\begin{table}[H]
+    {Thông số kĩ thuật của drone trình diễn ánh sáng}
+\centering
+\begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
+    \hline
+    Thông số & Collmot[5] & Light show Drone L3 (Damoda) [6] \\ \hline
+    Loại & Quadrotor & Quadrotor \\ \hline
+    Trọng lượng & < 2 kg & 530 g \\ \hline
+    Kích thước & Đường kính < 100 cm, cao ≈ 30 cm & Đường kính 320 mm, cao 115 mm \\ \hline
+    Thời gian bay & 10–12 phút & 20–25 phút \\ \hline
+    Tốc độ tối đa & 6 m/s ngang, 2 m/s dọc & 10 m/s \\ \hline
+    Độ cao tối đa & 120 m & 120 m \\ \hline
+    Khoảng cách tối thiểu & 7 m & 1.4 m \\ \hline
+\end{tabular}
+\end{table}
+\section{Phần mềm điều hành và hệ thống điều khiển UAV bầy đàn trong drone trình diễn ánh sáng.}
+Có nhiều phương pháp điều khiển đội hình UAV, thường có một trạm điều khiển có thể là một máy tính hiệu năng cao hoặc các thiết bị di động có trách nhiệm quản lý và điều khiển các UAV [7].
+Dựa vào ảnh hưởng của trạm mặt đất, có thể phân loại các phương pháp điều khiển như phương pháp thủ công (human in the loop) với các drone được điều khiển hoàn toàn bằng trạm mặt đất trong suốt quá trình buổi diễn, phương pháp bán tự động (semi-autonomous) các bộ điều khiển bay trên drone sẽ phối hợp điều khiển với các bộ điều khiển bay trên drone sẽ phối hợp điều khiển với
+trạm mặt đất, trạm mặt đất có chức năng gửi các điểm điều hướng(waypoint) đến các drone, bộ điều khiển bay của từng drone sẽ giúp duy trình ổn định bay cũng như tránh va chạm, phương pháp tự động (autonomous) các drone sẽ tự đưa ra kế hoạch bay và tránh vật cản mà không phụ thuộc nhiều vào chạm mặt đất [8].
+Trong các buổi trình diễn ánh sáng bằng drone, phương pháp điều khiển bán tự động thường được sử dụng phổ biến nhất do phương pháp điều khiển tự động thường yêu cầu cảm biến cảm biến và khả năng tính toán của bộ điều khiển rất phức tạp ở từng drone trong khi đó phương pháp thủ công lại rất rủi ro không phù hợp với các màn trình diễn quy môn lớn  vì dễ gây nguy cơ va chạm do phụ thuộc vào đường truyền của UAV với trạm mặt đất cũng như kĩ thuật của phi công điều khiển UAV [4]. 
 
+Hiện nay, hầu hết các phần mềm của các công ty đều được phát triển công phu nhưng thường được thương mại hóa với chi phí rất cao và không công khai công nghệ lõi. 
+Mặc dù vậy có một số nhóm nghiên cứu có công bố khá chi tiết về kiến trúc phần mềm và hệ thống điều khiển trong hệ thống thực tế khi triển khai các màn trình diễn 
+ánh sáng. Như trong nghiên cứu của Sun cùng cộng sự, các đội hình sẽ được thiết kế sẵn qua các phần mêm đô họa như Blender, thuật toán quy hoạch đường đi được đề xuất nhằm
+có thể xuất ra các waypoint cho quá trình chuyển đổi đội hình chi tiết về thuật toán này sẽ được trình bày cụ thể trong chương hai, các waypoint sau khi được tính toán sẽ được gửi đến các drone qua wifi bộ điều khiển bay trển dronne sẽ giúp các drone bám theo các waypoint này, hệ thống định vị GNSS-RTK được sử dụng để đảm bảo sai số định vị chỉ ở mức cm [9]. Quy trình thực hiện được mô tả qua hình 1.3, cấu trúc hệ thống được thể hiện qua hình 1.4.
+
+\begin{figure}[H]
+    {Luồng hoạt thống của hệ thống [9].}
+    \centering
+    \includegraphics[width=0.3\textwidth]{hinh1-3.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    {Hệ thống được triển khai bởi Sun cùng cộng sự [9].}
+    \centering
+    \includegraphics[width=0.6\textwidth]{hinh1-4.png}
+\end{figure}
+
+Trong nghiên cứu của Huang cùng cộng sự hệ thống bay được triển khai trong thực tế được trình bay chi tiết hơn cả về phần cứng và phần mềm, 
+
+
+\begin{thebibliography}{9}
+    \begin{bibsection} {Tiếng Việt}
+    \end{bibsection}
+    \begin{bibsection}{Tiếng Anh}
+        \bibitem{Intel2018}
+	        Intel Corporation, ''Intel Drone Light Show Breaks Guinness World Records Title at Olympic Winter Games PyeongChang 2018''. [Online]. Available: https://www.intc.com/news-events/press-releases/detail/172/intel-drone-light-show-breaks-guinness-world-records-title .
+        \bibitem{Ehang2018}
+            Ehang, ''EHang Egret’s 1374 drones dancing over the City Wall of Xi’an, achieving a Guinness World Records title''. [Online]. Available: https://www.ehang.com/news/365.html .
+        \bibitem{Guiness World Record 2025}
+            Masakazu Senda, ''Vietnam marks 50th Reunification Day by lighting sky with record dispay of 10,500 drones''. [Online]. Available: https://www.guinnessworldrecords.com/news/commercial/2025/5/vietnam-marks-50th-reunification-day-by-lighting-sky-with-record-dispay-of-10500-drones.
+        \bibitem{Huang2021}
+            Huang, Jie, Guoqing Tian, Jiancheng Zhang, and Yutao Chen, ''On Unmanned Aerial Vehicles Light Show Systems: Algorithms, Software and Hardware'' \textit{Applied Sciences}, Vol 11, no. 16, 2021.
+        \bibitem{Collmot}
+            CollMot Robotics Ltd., "CollMot multi drone show spec tech". [Online]. Avaialable: https://collmot.com/user/pages/resources/CollMot\%20multi-drone\%20show\%20tech\%20spec.pdf .
+        \bibitem{Damoda}
+            Shenzhen DAMODA Intelligent Control Technology Co., Ltd, "Light show Drone L3". [Online]. Available: https://www.damoda.com/products/l3.html
+        \bibitem{Frew 2008}
+            Eric M.Frew, Timothy X. Brown, "Airbone Communication Networks for Small Unmanned Aircraft Systems", \textit{Proceedings of the IEEEs}, 2008, Vol 96, Issue 12,
+        \bibitem{Wang 2019}
+            Wang, H.Zhao, Jiao Zhang, Dongtang Ma, JiaXun Li, Jibo Wei . "Survey on unmanned aerial vehicle networks: A cypher physical system perspective", \textit{IEEE Communications Surveys \& Tutorial},2019, Vol 22, Issue: 2.
+        \bibitem{Sun}
+            H.Sun, J.Qi, M.Wang "Path Planning for Dense Drone Formation Based on Modiefield Aritificial Potential Field", \textit{Proceedings of 39th Chinese Control Conference, Shenyang, China}, 2020, pp.4658-4664.
+        
+        \end{bibsection}
+\end{thebibliography}
 \end{document}
+
+
+
