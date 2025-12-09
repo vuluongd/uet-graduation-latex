@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.22)  26 NOV 2025 06:20
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.22)  9 DEC 2025 18:58
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -748,28 +748,47 @@ LaTeX Info: Redefining \year on input line 98.
 \c@a@figure=\count348
 \c@a@table=\count349
 \c@bibitem=\count350
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks41
+\minrowclearance=\skip55
+\rownum=\count351
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 2.
+h' as default language. on input line 24.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -807,17 +826,17 @@ LaTeX Font Info:    ... okay on input line 2.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count351
+\scratchcounter=\count352
 \scratchdimen=\dimen283
 \scratchbox=\box79
-\nofMPsegments=\count352
-\nofMParguments=\count353
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count354
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count355
 \MPscratchDim=\dimen284
-\MPnumerator=\count355
-\makeMPintoPDFobject=\count356
-\everyMPtoPDFconversion=\toks42
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks43
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -827,7 +846,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package mathfont Info: Restoring \Umathcode values for \mathbb.
 Package mathfont Info: Restoring \Umathcode values for \mathcal.
+Package mathfont Info: Restoring \Umathcode values for \mathfrak.
 
 ********************************************
 * Changes made by mathfont in the preamble *
@@ -869,13 +890,13 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 2.
+or `english'. on input line 24.
 Package mathfont Info: Adjusting font Times New Roman.
 Package mathfont Info: Adjusting font Times New Roman Bold.
 <UET logo.pdf, id=4, 142.26378pt x 142.26378pt>
 File: UET logo.pdf Graphic file (type pdf)
 <use UET logo.pdf>
-Package luatex.def Info: UET logo.pdf  used on input line 9.
+Package luatex.def Info: UET logo.pdf  used on input line 32.
 (luatex.def)             Requested size: 85.35892pt x 85.35892pt.
 Package mathfont Info: Adjusting font Times New Roman.
 Package mathfont Info: Adjusting font Times New Roman Bold.
@@ -895,13 +916,26 @@ Package mathfont Info: Adjusting font Times New Roman Italic-3.
 Package mathfont Info: Adjusting font Times New Roman Italic-3.
 Package mathfont Info: Adjusting font Times New Roman-3.
 Package mathfont Info: Adjusting font Times New Roman-3.
-Package mathfont Info: Adjusting font Times New Roman-3. [4
+Package mathfont Info: Adjusting font Times New Roman-3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4
 
 ] [5
 
 ]
 Package mathfont Info: Adjusting font Times New Roman.
-Package mathfont Info: Adjusting font Times New Roman Bold. (./main.toc
+Package mathfont Info: Adjusting font Times New Roman Bold.
+(./main.toc
 LaTeX Font Info:    Calculating math sizes for size <13.00003> on input line 1.
 
 
@@ -929,48 +963,44 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.00003> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.50002> not available
 (Font)              size <7> substituted on input line 1.
 
-
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.00003> not available
-(Font)              size <12> substituted on input line 1.
-
 Package mathfont Info: Adjusting font Times New Roman Italic-3.
 Package mathfont Info: Adjusting font Times New Roman Italic-3.
 Package mathfont Info: Adjusting font Times New Roman Italic-3.
 Package mathfont Info: Adjusting font Times New Roman-3.
 Package mathfont Info: Adjusting font Times New Roman-3.
-Package mathfont Info: Adjusting font Times New Roman-3.)
+Package mathfont Info: Adjusting font Times New Roman-3. [6
+
+])
 \tf@toc=\write4
 
 \openout4 = main.toc
- [6
+ [7] (./main.lof [8
 
-] (./main.lof)
+])
 \tf@lof=\write5
 
 \openout5 = main.lof
- [7
-
-] (./main.lot)
+ [9] (./main.lot)
 \tf@lot=\write6
 
 \openout6 = main.lot
- [8
+ [10
 
-] [9
+] [11
 
 ]
 Package mathfont Info: Adjusting font Times New Roman.
 Package mathfont Info: Adjusting font Times New Roman Bold.
-<hinh1-1.png, id=38, 730.22812pt x 410.2828pt>
+<hinh1-1.png, id=45, 730.22812pt x 410.2828pt>
 File: hinh1-1.png Graphic file (type png)
 <use hinh1-1.png>
-Package luatex.def Info: hinh1-1.png  used on input line 77.
+Package luatex.def Info: hinh1-1.png  used on input line 112.
 (luatex.def)             Requested size: 273.14923pt x 153.46753pt.
 Package mathfont Info: Adjusting font Times New Roman.
-<hinh1-2.png, id=39, 1828.8325pt x 868.24374pt>
+<hinh1-2.png, id=46, 1828.8325pt x 868.24374pt>
 File: hinh1-2.png Graphic file (type png)
 <use hinh1-2.png>
-Package luatex.def Info: hinh1-2.png  used on input line 84.
+Package luatex.def Info: hinh1-2.png  used on input line 119.
 (luatex.def)             Requested size: 341.43307pt x 162.09314pt.
  [1
 
@@ -978,96 +1008,343 @@ Package luatex.def Info: hinh1-2.png  used on input line 84.
 
 <./hinh1-1.png>]
 Package mathfont Info: Adjusting font Times New Roman Bold.
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []|\TU/TimesNewRoman(0)/m/n/13.00003 Light show Drone L3
  []
 
 [2<./hinh1-2.png>]
-<hinh1-3.jpg, id=47, 309.155pt x 793.96625pt>
+<hinh1-3.jpg, id=53, 309.155pt x 793.96625pt>
 File: hinh1-3.jpg Graphic file (type jpg)
 <use hinh1-3.jpg>
-Package luatex.def Info: hinh1-3.jpg  used on input line 113.
+Package luatex.def Info: hinh1-3.jpg  used on input line 150.
 (luatex.def)             Requested size: 136.57462pt x 350.76367pt.
  [3]
-<hinh1-4.png, id=51, 633.36626pt x 506.89375pt>
+<hinh1-4.png, id=57, 633.36626pt x 506.89375pt>
 File: hinh1-4.png Graphic file (type png)
 <use hinh1-4.png>
-Package luatex.def Info: hinh1-4.png  used on input line 119.
+Package luatex.def Info: hinh1-4.png  used on input line 156.
 (luatex.def)             Requested size: 273.14923pt x 218.60977pt.
- [4<./hinh1-3.jpg><./hinh1-4.png>] [5]
-Underfull \hbox (badness 1552) in paragraph at lines 130--131
+ [4<./hinh1-3.jpg><./hinh1-4.png>]
+<hinh1-5.jpg, id=62, 820.06375pt x 705.63625pt>
+File: hinh1-5.jpg Graphic file (type jpg)
+<use hinh1-5.jpg>
+Package luatex.def Info: hinh1-5.jpg  used on input line 169.
+(luatex.def)             Requested size: 364.19667pt x 313.38803pt.
+<hinh1-6.jpg, id=63, 952.55875pt x 533.995pt>
+File: hinh1-6.jpg Graphic file (type jpg)
+<use hinh1-6.jpg>
+Package luatex.def Info: hinh1-6.jpg  used on input line 178.
+(luatex.def)             Requested size: 364.19667pt x 204.16687pt.
+ [5<./hinh1-5.jpg>]
+[6<./hinh1-6.jpg>]
+<hinh1-7.jpg, id=70, 1254.6875pt x 597.23125pt>
+File: hinh1-7.jpg Graphic file (type jpg)
+<use hinh1-7.jpg>
+Package luatex.def Info: hinh1-7.jpg  used on input line 200.
+(luatex.def)             Requested size: 364.19667pt x 173.35666pt.
+ [7<./hinh1-7.jpg>]
+Package mathfont Info: Adjusting font Times New Roman.
+Package mathfont Info: Adjusting font Times New Roman Bold.
+Package mathfont Info: Adjusting font Times New Roman.
+Package mathfont Info: Adjusting font Times New Roman Bold.
+Package mathfont Info: Adjusting font Times New Roman.
+Package mathfont Info: Adjusting font Times New Roman Bold. [8
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 248--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+[9] [10] [11] [12] [13] [14]
+<hinh2-1.png, id=105, 531.9875pt x 399.4925pt>
+File: hinh2-1.png Graphic file (type png)
+<use hinh2-1.png>
+Package luatex.def Info: hinh2-1.png  used on input line 458.
+(luatex.def)             Requested size: 250.38564pt x 188.0236pt.
+ [15<./hinh2-1.png>] [16]
+<hinh2-2.png, id=114, 1332.6588pt x 708.9687pt>
+File: hinh2-2.png Graphic file (type png)
+<use hinh2-2.png>
+Package luatex.def Info: hinh2-2.png  used on input line 530.
+(luatex.def)             Requested size: 364.19667pt x 193.74997pt.
+<hinh2-3.png, id=115, 1332.6588pt x 708.9687pt>
+File: hinh2-3.png Graphic file (type png)
+<use hinh2-3.png>
+Package luatex.def Info: hinh2-3.png  used on input line 535.
+(luatex.def)             Requested size: 364.19667pt x 193.74997pt.
+<hinh2-4.png, id=116, 556.0775pt x 299.1175pt>
+File: hinh2-4.png Graphic file (type png)
+<use hinh2-4.png>
+Package luatex.def Info: hinh2-4.png  used on input line 546.
+(luatex.def)             Requested size: 364.19667pt x 195.90741pt.
+ [17<./hinh2-2.png><./hinh2-3.png>] [18<./hinh2-4.png>]
+Missing character: There is no đ (U+0111) in font cmmi9!
+Missing character: There is no 󿀌 (U+FF00C) in font cmr9!
+Missing character: There is no 󿀌 (U+FF00C) in font cmr9!
+Missing character: There is no 󿀈 (U+FF008) in font cmr9!
+Missing character: There is no 󿀈 (U+FF008) in font cmr9!
+Missing character: There is no 󿀍 (U+FF00D) in font cmr9!
+[19]
+<hinh2-5.jpg, id=129, 1312.905pt x 1444.39626pt>
+File: hinh2-5.jpg Graphic file (type jpg)
+<use hinh2-5.jpg>
+Package luatex.def Info: hinh2-5.jpg  used on input line 609.
+(luatex.def)             Requested size: 455.24411pt x 500.82977pt.
+ [20<./hinh2-5.jpg>] [21
+
+] [22]
+<hinh3-1.jpg, id=140, 1115.16624pt x 1010.77625pt>
+File: hinh3-1.jpg Graphic file (type jpg)
+<use hinh3-1.jpg>
+Package luatex.def Info: hinh3-1.jpg  used on input line 654.
+(luatex.def)             Requested size: 364.19667pt x 330.1024pt.
+<hinh3-2.png, id=141, 578.16pt x 361.35pt>
+File: hinh3-2.png Graphic file (type png)
+<use hinh3-2.png>
+Package luatex.def Info: hinh3-2.png  used on input line 659.
+(luatex.def)             Requested size: 364.19667pt x 227.61862pt.
+ [23<./hinh3-1.jpg>] [24<./hinh3-2.png>]
+<hinh3-3.jpg, id=149, 978.65625pt x 1095.09125pt>
+File: hinh3-3.jpg Graphic file (type jpg)
+<use hinh3-3.jpg>
+Package luatex.def Info: hinh3-3.jpg  used on input line 677.
+(luatex.def)             Requested size: 455.24411pt x 509.41269pt.
+
+[25<./hinh3-3.jpg>] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]|\TU/TimesNewRoman(0)/m/n/13.00003 Số lượng
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 695--695
+[]|\TU/TimesNewRoman(0)/m/n/13.00003 Thời gian tính
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 695--695
+\TU/TimesNewRoman(0)/m/n/13.00003 toán trên CPU
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 695--695
+[]|\TU/TimesNewRoman(0)/m/n/13.00003 Thời gian tính
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 695--695
+[]|\TU/TimesNewRoman(0)/m/n/13.00003 Thời gian tính
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\TU/TimesNewRoman(0)/m/n/13.00003 toán lực trên
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 695--697
+[]|\TU/TimesNewRoman(0)/m/n/13.00003 Thời gian tính
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 695--697
+\TU/TimesNewRoman(0)/m/n/13.00003 toán kernel lực
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--697
+\TU/TimesNewRoman(0)/m/n/13.00003 tổng hợp trên
+ []
+
+
+Overfull \hbox (17.22618pt too wide) in paragraph at lines 693--711
+ [][] 
+ []
+
+[27
+
+]
+<hinh4-2.png, id=159, 1060.96375pt x 795.97375pt>
+File: hinh4-2.png Graphic file (type png)
+<use hinh4-2.png>
+Package luatex.def Info: hinh4-2.png  used on input line 736.
+(luatex.def)             Requested size: 273.14923pt x 204.91998pt.
+ [28]
+<hinh4-3.png, id=163, 1010.5755pt x 570.933pt>
+File: hinh4-3.png Graphic file (type png)
+<use hinh4-3.png>
+Package luatex.def Info: hinh4-3.png  used on input line 743.
+(luatex.def)             Requested size: 364.19667pt x 205.75351pt.
+<hinh4-4.png, id=164, 1148.97255pt x 715.2321pt>
+File: hinh4-4.png Graphic file (type png)
+<use hinh4-4.png>
+Package luatex.def Info: hinh4-4.png  used on input line 748.
+(luatex.def)             Requested size: 455.24411pt x 283.38121pt.
+<hinh4-5.png, id=165, 1148.3703pt x 715.2321pt>
+File: hinh4-5.png Graphic file (type png)
+<use hinh4-5.png>
+Package luatex.def Info: hinh4-5.png  used on input line 753.
+(luatex.def)             Requested size: 455.24411pt x 283.534pt.
+ [29<./hinh4-2.png><./hinh4-3.png>]
+<hinh4-6.png, id=171, 1010.5755pt x 570.933pt>
+File: hinh4-6.png Graphic file (type png)
+<use hinh4-6.png>
+Package luatex.def Info: hinh4-6.png  used on input line 763.
+(luatex.def)             Requested size: 455.24411pt x 257.19624pt.
+ [30<./hinh4-4.png><./hinh4-5.png>]
+<hinh4-7.png, id=178, 1148.97255pt x 715.2321pt>
+File: hinh4-7.png Graphic file (type png)
+<use hinh4-7.png>
+Package luatex.def Info: hinh4-7.png  used on input line 768.
+(luatex.def)             Requested size: 455.24411pt x 283.38121pt.
+<hinh4-8.png, id=179, 1148.3703pt x 715.2321pt>
+File: hinh4-8.png Graphic file (type png)
+<use hinh4-8.png>
+Package luatex.def Info: hinh4-8.png  used on input line 773.
+(luatex.def)             Requested size: 455.24411pt x 283.534pt.
+[31<./hinh4-6.png>]
+<hinh4-9.png, id=184, 1010.5755pt x 570.933pt>
+File: hinh4-9.png Graphic file (type png)
+<use hinh4-9.png>
+Package luatex.def Info: hinh4-9.png  used on input line 784.
+(luatex.def)             Requested size: 455.24411pt x 257.19624pt.
+ [32<./hinh4-7.png><./hinh4-8.png>]
+<hinh4-10.png, id=190, 1148.97255pt x 715.2321pt>
+File: hinh4-10.png Graphic file (type png)
+<use hinh4-10.png>
+Package luatex.def Info: hinh4-10.png  used on input line 789.
+(luatex.def)             Requested size: 455.24411pt x 283.38121pt.
+<hinh4-11.png, id=191, 1148.3703pt x 715.2321pt>
+File: hinh4-11.png Graphic file (type png)
+<use hinh4-11.png>
+Package luatex.def Info: hinh4-11.png  used on input line 794.
+(luatex.def)             Requested size: 455.24411pt x 283.534pt.
+ [33<./hinh4-9.png>]
+[34<./hinh4-10.png><./hinh4-11.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\TU/TimesNewRoman(0)/m/n/13.00003 Hungarian kết
+ []
+
+<hinh4-12.jpg, id=201, 1222.5675pt x 749.80125pt>
+File: hinh4-12.jpg Graphic file (type jpg)
+<use hinh4-12.jpg>
+Package luatex.def Info: hinh4-12.jpg  used on input line 828.
+(luatex.def)             Requested size: 455.24411pt x 279.19548pt.
+<hinh4-13.jpg, id=202, 1274.7625pt x 749.80125pt>
+File: hinh4-13.jpg Graphic file (type jpg)
+<use hinh4-13.jpg>
+Package luatex.def Info: hinh4-13.jpg  used on input line 833.
+(luatex.def)             Requested size: 455.24411pt x 267.76588pt.
+[35] [36<./hinh4-12.jpg><./hinh4-13.jpg>] [37
+
+]
+Underfull \hbox (badness 1552) in paragraph at lines 855--856
 []\TU/TimesNewRoman(0)/m/n/13.00003 Intel Corporation, ''Intel Drone Light Show Breaks Guinness World Records
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 130--131
+Underfull \hbox (badness 5288) in paragraph at lines 855--856
 \TU/TimesNewRoman(0)/m/n/13.00003 Title at Olympic Winter Games PyeongChang 2018
 ''. [Online]. Available:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
 \TU/TimesNewRoman(0)/m/n/13.00003 https://www.intc.com/news-events/press-release
 s/detail/172/intel-drone-light-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
 []\TU/TimesNewRoman(0)/m/n/13.00003 Ehang, ''EHang Egret’s 1374 drones dancing
  over the City Wall of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
 \TU/TimesNewRoman(0)/m/n/13.00003 Xi’an, achieving a Guinness World Records ti
 tle''. [Online]. Available:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 []\TU/TimesNewRoman(0)/m/n/13.00003 Masakazu Senda, ''Vietnam marks 50th Reunifi
 cation Day by lighting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 \TU/TimesNewRoman(0)/m/n/13.00003 sky with record dispay of 10,500 drones''. [On
 line]. Available:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 \TU/TimesNewRoman(0)/m/n/13.00003 https://www.guinnessworldrecords.com/news/comm
 ercial/2025/5/vietnam-marks-
  []
 
 Package mathfont Info: Adjusting font Times New Roman Italic.
-Underfull \hbox (badness 5696) in paragraph at lines 138--139
+Underfull \hbox (badness 5696) in paragraph at lines 863--864
 []\TU/TimesNewRoman(0)/m/n/13.00003 CollMot Robotics Ltd., ”CollMot multi dron
 e show spec tech”. [Online].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
 \TU/TimesNewRoman(0)/m/n/13.00003 Avaialable: https://collmot.com/user/pages/res
 ources/CollMot%20multi-
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 146--147
+Underfull \hbox (badness 1127) in paragraph at lines 869--870
+[]\TU/TimesNewRoman(0)/m/n/13.00003 Wang, H.Zhao, Jiao Zhang, Dongtang Ma, JiaXu
+n Li, Jibo Wei, ”Survey on
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 873--874
 []\TU/TimesNewRoman(0)/m/n/13.00003 H.Sun, J.Qi, M.Wang ”Path Planning for Den
 se Drone Formation Based on
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 146--147
+Underfull \hbox (badness 2547) in paragraph at lines 873--874
 \TU/TimesNewRoman(0)/m/n/13.00003 Modiefield Aritificial Potential Field”, \T
 U/TimesNewRoman(0)/m/it/13.00003 Proceedings of 39th Chinese Control
  []
 
-[6
+[38
 
-] (./main.aux)
+]
+Underfull \hbox (badness 4543) in paragraph at lines 886--887
+[]\TU/TimesNewRoman(0)/m/n/13.00003 NVIDIA Corporation, ”NVIDIA CUDA C++ Progr
+amming Guide”, 2023.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 886--887
+\TU/TimesNewRoman(0)/m/n/13.00003 [Online]. Available: https://docs.nvidia.com/c
+uda/cuda-c-programming-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+[]\TU/TimesNewRoman(0)/m/n/13.00003 Khronos Group, ”The OpenCL Specification
+”, 2023. [Online].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+\TU/TimesNewRoman(0)/m/n/13.00003 Available: https://www.khronos.org/registry/Op
+enCL/specs/3.0-
+ []
+
+[39] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
@@ -1080,23 +1357,32 @@ LaTeX Font Warning: Size substitutions with differences
 )
 
 Here is how much of LuaTeX's memory you used:
- 21168 strings out of 476081
+ 21992 strings out of 476081
  125217,953878 words of node,token memory allocated
- 495 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 52 glue_spec,
- 8 attribute_list, 2 write nodes
-   avail lists: 2:328,3:140,4:44,5:44,6:60,7:5074,8:1,9:522,10:20,11:50
- 43134 multiletter control sequences out of 65536+600000
- 101 fonts using 21100479 bytes
- 99i,10n,113p,2470b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Italic.ttf></usr/share/
-fonts/truetype/msttcorefonts/Times_New_Roman_Bold_Italic.ttf></usr/share/fonts/t
-ruetype/msttcorefonts/Times_New_Roman.ttf></usr/share/fonts/truetype/msttcorefon
-ts/Times_New_Roman_Bold.ttf>
-Output written on main.pdf (15 pages, 650311 bytes).
+ 716 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 62 attribute, 53 glue_spec
+, 62 attribute_list, 2 write nodes
+   avail lists: 2:2034,3:540,4:100,5:207,6:271,7:6446,8:56,9:2708,10:20,11:57
+ 43880 multiletter control sequences out of 65536+600000
+ 119 fonts using 23972087 bytes
+ 99i,16n,113p,1192b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf></usr/share/fonts/t
+ruetype/msttcorefonts/Times_New_Roman_Italic.ttf></usr/share/fonts/truetype/mstt
+corefonts/Times_New_Roman_Italic.ttf></usr/share/fonts/truetype/msttcorefonts/Ti
+mes_New_Roman_Bold_Italic.ttf></usr/share/fonts/truetype/msttcorefonts/Times_New
+_Roman.ttf></usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold.ttf></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
+ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+25/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (50 pages, 69145342 bytes).
 
-PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+PDF statistics: 282 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
